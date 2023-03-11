@@ -1,0 +1,5 @@
+New-Object System.Net.Sockets.TCPClient -Argument "localhost","3000"
+
+
+& "d:\GitHub\Vertx_Learning\ch1_1\mvnw.cmd" install -f "d:\GitHub\Vertx_Learning\ch1_1\pom.xml"  
+& "d:\GitHub\Vertx_Learning\ch1_1\mvnw.cmd" exec:java -f "d:\GitHub\Vertx_Learning\ch1_1\pom.xml"
