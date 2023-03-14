@@ -1,0 +1,7 @@
+You can use system properties to change the settings:
+ 
+   -Dvertx.options.blockedThreadCheckInterval=5000  changes  the  inter- val to five seconds. 
+ 
+   -Dvertx.threadChecks=false disables the thread checker. 
+ 
+ Note that this configuration is global and cannot be fine-tuned on a per-verticle basis.
