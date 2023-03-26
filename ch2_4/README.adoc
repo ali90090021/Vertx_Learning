@@ -1,0 +1,16 @@
+= Ch2_4
+
+image:https://img.shields.io/badge/vert.x-4.4.0-purple.svg[link="https://vertx.io"]
+
+
+
+== Deploying verticles
+
+
+Verticles are always deployed (and undeployed) through the Vertx object. You can do so from any method, but the typical way to deploy an application composed of ver- ticles is as follows:
+ 
+1- Deploy a main verticle.
+ 
+2- The main verticle deploys other verticles.
+ 
+3- The deployed verticles may in turn deploy further verticles.
