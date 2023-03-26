@@ -1,0 +1,10 @@
+= Ch2_4
+
+image:https://img.shields.io/badge/vert.x-4.4.0-purple.svg[link="https://vertx.io"]
+
+
+
+== Passing configuration data
+
+
+Vert.x verticles can be passed such configuration data when they are deployed.  Configuration needs to be passed as JSON data, using the Vert.x JSON API materi- alized by the JsonObject and JsonArray classes in the io.vertx.core.json package

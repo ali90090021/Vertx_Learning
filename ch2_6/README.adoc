@@ -1,0 +1,10 @@
+= Ch2_6
+
+image:https://img.shields.io/badge/vert.x-4.4.0-purple.svg[link="https://vertx.io"]
+
+There are inevitably cases where you will have a hard time avoiding blocking code. It  may  happen  because  you  are  using  a  third-party  library  with  another  threading model,  such  as  drivers  for  some  networked  services.  Vert.x  provides  two  options  for dealing with such cases: worker verticles and the executeBlocking operation
+
+== Worker verticles
+Worker verticles are a special form of verticles that do not execute on an event loop. Instead,  they  execute  on worker  threads,  that  is,  threads  taken  from  special  worker pools
+
+To  put  it  simply,  like  event-loop  verticles,  worker  verticles  are  single-threaded,  but unlike event-loop verticles, the thread may not always be the same
