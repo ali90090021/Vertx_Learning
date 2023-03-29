@@ -1,0 +1,13 @@
+= Ch2_8
+
+image:https://img.shields.io/badge/vert.x-4.4.0-purple.svg[link="https://vertx.io"]
+
+
+
+== Context  
+
+* Calling getOrCreateContext()  from  a  context  thread  like  that  of  a  verticle returns the context.
+* Calling getOrCreateContext() from a non-context thread creates a new context
+
+
+
