@@ -1,0 +1,10 @@
+= Ch2_9
+
+image:https://img.shields.io/badge/vert.x-4.4.0-purple.svg[link="https://vertx.io"]
+
+
+== Bridging Vert.x and non-Vert.x threading models
+when  you  have  to  use third-party code that has its own threading model, and you want to make it work prop- erly with Vert.x
+
+
+
