@@ -1,0 +1,9 @@
+= Ch5_2
+
+image:https://img.shields.io/badge/vert.x-4.4.0-purple.svg[link="https://vertx.io"]
+
+
+== Futures and promises 
+
+A promise is used to write an eventual value, and a future is used to read it when it is available
+
